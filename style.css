@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body {
+    background-color:rgb(10, 1, 18); 
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    margin: 15px 5px 10px 5px;
+    padding: 5px 5px 5px 5px;
+    color:aliceblue;
+    text-align: center;
+    /* border: 2px solid pink; */
+}
+.inHeader {
+    border: 2px solid pink;
+    padding: 5px 5px 5px 5px;
+}
+.searchH {
+    background-color: rgb(213, 185, 239);
+    color: rgb(10, 1, 18);
+    width:700px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+   
+}
+.buttonH {
+    color:rgb(10, 1, 18) ;
+    background-color: rgb(173, 117, 232);
+    height: 35px;
+    width: 35px;
+    border-radius: 30%;
+    border: 2px solid pink;
+    margin-left: 3px;
+}
+
+
+.pgHolder{
+    /* background-color: pink ; */
+    width:100%;
+    height: 1200px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.newPg {
+    height: 800px;
+    width: 30%;
+    border-radius: 5px;
+    background-color: rgba(219, 96, 219, 0.767);
+    border: 2px solid white;
+    margin: 15px 5px 15px 5px;
+}
+.pgH {
+    width:100%;
+    height:5%;
+    /* border: 2px solid white; */
+    padding:2px 0px 2px 0px ;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.pgInput{
+    height: 60%;
+    width: 70%;
+    background-color:rgb(120, 33, 212) ;
+    color: yellow;
+    margin: 2px 0px 2px 7px;
+    border-radius: 5px;
+}
+.pgAddBtn{
+    height: 80%;
+    background-color: blue;
+    margin-left: 1px;
+    border-radius: 10px;
+}
+.pgDelBtn {
+    background-color: rgb(173, 117, 232);
+    margin: 2px 4px 2px auto ;
+    border-radius: 20px;    
+}
+
+/* pgB */
+.pgUl{
+    color: yellow;
+    font-size: larger;
+}
+.delLi{
+    background-color: blueviolet;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.pgTitle{
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(240, 179, 11);
+    margin: 5px 0px 5px 10px;
+
+}
